@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8656737518033865365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4463843673407875758}
+  - component: {fileID: 5319651821702314152}
+  m_Layer: 0
+  m_Name: MapGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4463843673407875758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8656737518033865365}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5319651821702314152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8656737518033865365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 856f7fc5f7eb3394c941c8d2a491bc3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapSize: 10
+  tileSize: 10
+  tileAmount: 10
+  tileVariationProbability: 0.25
+  seed: 0
+  tilePrefab: {fileID: 6263978277638264954, guid: e6c677cec68ba2941ad8b2aa623668d5,
+    type: 3}
+  tileVariationPrefabs:
+  - {fileID: 5612587169700731794, guid: bf70c262b7abe6d46b6de078d61cfde0, type: 3}
+  - {fileID: 5680131484831459517, guid: 453767dad1a65544c96b77cd78db01da, type: 3}
+  - {fileID: 6953496252797435834, guid: 7c19fa077afd68d42a7ea75ab4cbf5a1, type: 3}
+  - {fileID: 1140304300013872019, guid: 11e2fb986dcdb324db975abb393323e4, type: 3}
+  - {fileID: 569152840327952652, guid: b4bbf06eac7c5b64a8b8b162d969c566, type: 3}
+  bulletSpawnTime: 1
+  bulletPrefab: {fileID: 3220122659940296219, guid: 0a5af654042cd8b4f918b5f5ed05126f,
+    type: 3}
+  ingame: 0
